@@ -5,6 +5,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "department")
 public class Department {
+    //Ivantest version control
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
